@@ -1,0 +1,32 @@
+body{
+    box-sizing: border-box;
+    height: 100%;
+    width:100%;
+    background-color: rgb(99, 185, 157);
+}
+h1{
+    text-align: center;
+}
+.survey__form__container{
+    width: 60%;
+    margin: auto;
+    padding: 1rem;
+    background-color: rgb(222, 230, 230);
+    border-radius: 0.5rem;
+}
+.survey__form{
+    width:60%;
+    margin:auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap:0.5rem 0.5rem;
+}
+
+.survey__form label{
+    text-align: right;
+    padding: 0.2rem;
+}
+.survey__form input[type='radio']{
+    grid-row-start:5;
+    grid-row-end: 8;
+}
